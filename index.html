@@ -5,7 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
-    <link rel="stylesheet" crossorigin href="/javascipt-project/assets/index-BrRVeliA.css">
+    <link rel="stylesheet" crossorigin href="/javascipt-project/assets/index-BZDqB9zz.css">
   </head>
   <body>
     
@@ -28,15 +28,44 @@
         <div class="block-for-images-hero">
             <div class="wrapper-for-images-hero">
                 <ul class="list-for-firstsection-images">
-                    <li><img class="image-hero" src="../img/oliver.png" alt="oliver"></li>
-                    <li><img class="image-hero" src="../img/girl.png" alt="girl"></li>
-                    <li><img class="image-hero" src="../img/glasses-man.png" alt="glasses-man"></li>
+                    <li><picture>
+                        <source srcset="../img/oliver-phone.png" media="(min-width:320px) and (max-width: 767px)">
+                        <source srcset="../img/oliver-tablet.png" media="(min-width: 768px) and (max-width: 1439px)">
+                            <img class="image-hero" src="../img/oliver.png" alt="oliver">
+                        </picture>
+                    </li>    
+                    <li><picture>
+                        <source srcset="../img/girl-phone.png" media="(min-width:320px) and (max-width: 767px)">
+                        <source srcset="../img/girl-tablet.png" media="(min-width: 768px) and (max-width: 1439px)">
+                            <img class="image-hero" src="../img/girl.png" alt="girl">
+                        </picture>
+                    </li>
+                    <li><picture>
+                            <source srcset="../img/glasses-man-phone.png" media="(min-width:320px) and (max-width: 767px)">
+                            <source srcset="../img/glasses-man-tablet.png" media="(min-width: 768px) and (max-width: 1439px)">
+                            <img class="image-hero" src="../img/glasses-man.png" alt="glasses-man">
+                        </picture>
+                    </li>
                 </ul>
 
                 <ul class="list-for-secondsection-images">
-                    <li><img class="image-hero" src="../img/eye-man.png" alt="eye-man"></li>
-                    <li><img class="image-hero" src="../img/man-sit.png" alt="man-sit"></li>
-                    <li><img class="image-hero" src="../img/black-man.png" alt="black-man"></li>
+                    <li><picture>
+                            <source srcset="../img/eye-man-phone.png" media="(min-width:320px) and (max-width: 767px)">
+                            <source srcset="../img/eya-man-tablet.png" media="(min-width: 768px) and (max-width: 1439px)">
+                            <img class="image-hero" src="../img/eye-man.png" alt="eye-man">
+                    </picture>
+                    </li>
+                    <li><picture>
+                            <source srcset="../img/sit-man-phone.png" media="(min-width:320px) and (max-width: 767px)">
+                            <source srcset="../img/sit-man-tablet.png" media="(min-width: 768px) and (max-width: 1439px)">
+                            <img class="image-hero" src="../img/man-sit.png" alt="man-sit">
+                        </picture>
+                    </li>
+                    <li><picture>
+                        <source srcset="../img/blackman-phone.png" media="(min-width:320px) and (max-width: 767px)">
+                            <img class="image-hero" src="../img/black-man.png" alt="black-man" >
+                        </picture>
+                    </li>
                 </ul>
             </div>
 
